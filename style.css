@@ -1,0 +1,41 @@
+:root {
+
+    --nav-width: 300px;
+
+}
+
+nav {
+    display: none;
+}
+
+body {
+
+}
+
+main {
+
+}
+
+section {
+
+}
+
+@media screen and (min-width: 600px) {
+
+   nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: var(--nav-width);
+    display: flex;
+    flex-direction: column;
+
+    background: red;
+}
+
+    main {
+    padding-left: var(--nav-width);
+}
+
+}
